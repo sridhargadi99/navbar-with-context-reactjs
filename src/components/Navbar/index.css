@@ -1,0 +1,72 @@
+/* Write your CSS here */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px 12px 20px;
+}
+@media screen and (min-width: 768px) {
+  .navbar-container {
+    padding: 15px 30px 15px 30px;
+  }
+}
+.navbar-bg-style1 {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dcdcdc;
+}
+.navbar-bg-style2 {
+  background-color: #333333;
+}
+.website-logo-style {
+  height: 30px;
+  width: 30px;
+}
+@media screen and (min-width: 768px) {
+  .website-logo-style {
+    height: 40px;
+    width: 40px;
+  }
+}
+.list-container {
+  display: flex;
+  align-items: center;
+}
+.list-style {
+  list-style-type: none;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 500;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .list-style {
+    font-size: 27px;
+    font-weight: 700;
+  }
+}
+.link-style {
+  text-decoration: none;
+}
+.link-style1 {
+  color: #1e293b;
+}
+.link-style2 {
+  color: #f8fafc;
+}
+.button-style {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.theme-image-style {
+  height: 30px;
+  width: 30px;
+}
+@media screen and (min-width: 768px) {
+  .theme-image-style {
+    height: 40px;
+    width: 40px;
+  }
+}

@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.home-container {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-bg-style1 {
+  background-color: #ffffff;
+}
+.home-bg-style2 {
+  background-color: #000000;
+}
+.home-image-style {
+  height: 150px;
+  width: 150px;
+}
+@media screen and (min-width: 768px) {
+  .home-image-style {
+    height: 220px;
+    width: 220px;
+  }
+}
+.home-heading-style {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 700;
+  color: #1e293b;
+}
+.home-heading-style1 {
+  color: #1e293b;
+}
+.home-heading-style2 {
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .home-heading-style {
+    font-size: 40px;
+  }
+}

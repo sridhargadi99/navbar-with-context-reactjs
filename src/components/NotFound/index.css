@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+.not-found-bg-style1 {
+  background-color: #ffffff;
+}
+.not-found-bg-style2 {
+  background-color: #000000;
+}
+.not-found-sub-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.not-found-image-style {
+  height: 250px;
+  width: 250px;
+}
+@media screen and (min-width: 768px) {
+  .not-found-image-style {
+    height: 350px;
+    width: 350px;
+  }
+}
+.not-found-heading-style {
+  font-family: 'Roboto';
+  font-size: 27px;
+  font-weight: 700;
+}
+.not-found-heading-style1 {
+  color: #171f46;
+}
+.not-found-heading-style2 {
+  color: #f8fafc;
+}
+@media screen and (min-width: 768px) {
+  .not-found-heading-style {
+    font-size: 32px;
+  }
+}
+.not-found-description-style {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 700;
+}
+.not-found-description-style1 {
+  color: #334155;
+}
+.not-found-description-style2 {
+  color: #dcdcdc;
+}
+@media screen and (min-width: 768px) {
+  .not-found-description-style {
+    font-size: 22px;
+  }
+}

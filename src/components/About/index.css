@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.about-container {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-bg-style1 {
+  background-color: #ffffff;
+}
+.about-bg-style2 {
+  background-color: #000000;
+}
+.about-image-style {
+  height: 150px;
+  width: 150px;
+}
+@media screen and (min-width: 768px) {
+  .about-image-style {
+    height: 220px;
+    width: 220px;
+  }
+}
+.about-heading-style {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 700;
+}
+.about-heading-style1 {
+  color: #1e293b;
+}
+.about-heading-style2 {
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .about-heading-style {
+    font-size: 40px;
+  }
+}
